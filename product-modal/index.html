@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Product modal</title>
+  </head>
+  <body>
+    <div class="flex items-center justify-center min-h-screen bg-slate-100">
+      <div
+        class="flex flex-col items-center justify-center p-6 md:flex-row md:justify-center md:items-start bg-white shadow-2xl rounded-2xl"
+      >
+        <img src="./images/headphone.png" alt="" class="w-60 duration-200 hover:scale-105" />
+        <div class="flex flex-col items-start mt-16 md:mt-0 md:ml-8">
+          <div class="bg-black text-white text-sm rounded-full px-3 py-1 mb-4">
+            Free shipping
+          </div>
+          <h1 class="text-2xl max-w-sm font-medium">
+            Razer Kraken Kitty Edit Gaming Headset Quartz
+          </h1>
+          <span class="mt-6 text-sm font-bold line-through">$799</span>
+          <span class="text-5xl font-bold bold my-2">$599</span>
+          <span class="text-sm font-light text-gray-400"
+            >The offer is valid until April 3 or as long as stock lasts!</span
+          >
+          <button class="w-full rounded-lg bg-blue-600 text-white text-center py-4 mt-8 hover:bg-blue-700 active:bg-blue-800">
+            Add to cart
+          </button>
+          <div class="flex items-center mt-3 group">
+            <span class="w-2 h-2 bg-green-400 rounded-full animate-ping"></span>
+            <span class="text-sm ml-2">50+ pcs in stock</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
